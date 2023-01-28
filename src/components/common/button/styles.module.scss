@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--primary-color);
+}
+
+.secondary {
+  background: #ffffff;
+  border: 1px solid rgba(72, 68, 105, 0.25);
+  color: var(--black-100);
+}
+
+.alert {
+  background: var(--alert-color);
+}

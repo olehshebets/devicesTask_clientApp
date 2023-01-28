@@ -1,0 +1,32 @@
+@import "@/styles/shared/index.scss";
+
+.wrapper {
+  padding: rem(28px) rem(24px);
+  background-color: var(--modal-content-bg);
+  width: 80vw;
+  max-width: rem(450px);
+  display: grid;
+  gap: rem(24px);
+
+  border-radius: 4px;
+
+  .title {
+    @extend .modal-title;
+  }
+
+  .form {
+    display: grid;
+    gap: rem(12px);
+
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: rem(20px);
+      gap: rem(8px);
+    }
+  }
+
+  @include media-phone-bg {
+    width: 92vw;
+  }
+}

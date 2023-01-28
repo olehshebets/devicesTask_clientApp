@@ -1,0 +1,72 @@
+@import "@/styles/shared/index.scss";
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    background-color: var(--black-5);
+    cursor: default;
+
+    .optionButton {
+      display: flex;
+    }
+  }
+}
+
+.optionButton {
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0 0.5px;
+  background-color: var(--header-border-color);
+
+  i {
+    color: var(--black-100);
+  }
+
+  @include media-max-tablet {
+    display: flex;
+  }
+}
+
+.dropdownDeleteButton,
+.dropdownEditButton {
+  justify-content: flex-start;
+
+  &:hover {
+    background-color: var(--black-5);
+    cursor: pointer;
+  }
+}
+
+.dropdownEditButton {
+  color: var(--black-100);
+}
+
+.dropdownDeleteButton {
+  color: var(--alert-color);
+}
+
+.titleWrapper {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+
+  i {
+    font-size: 16px;
+    color: var(--device-icon-color);
+  }
+
+  .title {
+    @extend .table-column-name;
+  }
+
+  .description {
+    @extend .table-cell-sub;
+  }
+}

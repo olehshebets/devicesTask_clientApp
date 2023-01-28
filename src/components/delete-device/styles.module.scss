@@ -1,0 +1,32 @@
+@import "@/styles/shared/index.scss";
+
+.deleteDevice {
+  max-width: rem(540px);
+  padding: rem(28px) rem(24px);
+  background-color: var(--modal-content-bg);
+  border-radius: 4px;
+
+  width: min(rem(540px), 92vw);
+
+  .title {
+    @extend .modal-title;
+
+    margin-bottom: rem(24px);
+  }
+
+  .text {
+    @extend .table-column-name;
+
+    margin-bottom: rem(32px);
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: rem(8px);
+  }
+
+  // @include media-max-tablet {
+
+  // }
+}

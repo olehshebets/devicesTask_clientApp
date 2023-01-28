@@ -1,0 +1,17 @@
+@import "@/styles/shared/index.scss";
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: rem(4px);
+
+  label {
+    @extend .label;
+  }
+
+  &.withError {
+    label {
+      color: var(--alert-color);
+    }
+  }
+}

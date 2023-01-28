@@ -1,0 +1,49 @@
+@import "./functions.scss";
+
+.heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: rem(20px);
+  line-height: rem(24px);
+  color: var(--black-100);
+}
+
+.table-column-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: rem(14px);
+  line-height: rem(17px);
+  color: var(--black-100);
+}
+
+.table-cell-sub {
+  font-style: normal;
+  font-weight: 400;
+  font-size: rem(12px);
+  line-height: rem(15px);
+  color: var(--black-65);
+}
+
+.placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--secondary-65);
+}
+
+.label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--black-100);
+}
+
+.modal-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: rem(24px);
+  line-height: rem(29px);
+  color: var(--black-100);
+}

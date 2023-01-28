@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'devices-task-app-icons';
+  src:
+    url('fonts/devices-task-app-icons.ttf?1jh701') format('truetype'),
+    url('fonts/devices-task-app-icons.woff?1jh701') format('woff'),
+    url('fonts/devices-task-app-icons.svg?1jh701#devices-task-app-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'devices-task-app-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-windows:before {
+  content: "\e900";
+}
+.icon-linux:before {
+  content: "\e901";
+}
+.icon-apple:before {
+  content: "\e902";
+}
+.icon-plus:before {
+  content: "\e903";
+}
+.icon-magnifying-glass:before {
+  content: "\e904";
+}
+.icon-refresh:before {
+  content: "\e905";
+}
+.icon-arrow-dropdown-down:before {
+  content: "\e906";
+}
+.icon-cross:before {
+  content: "\e907";
+}
+.icon-three-dots:before {
+  content: "\e908";
+}
+.icon-Logo .path1:before {
+  content: "\e909";
+  color: rgb(59, 161, 196);
+}
+.icon-Logo .path2:before {
+  content: "\e90a";
+  margin-left: -4.615234375em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo .path3:before {
+  content: "\e90b";
+  margin-left: -4.615234375em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo .path4:before {
+  content: "\e90c";
+  margin-left: -4.615234375em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo .path5:before {
+  content: "\e90d";
+  margin-left: -4.615234375em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo .path6:before {
+  content: "\e90e";
+  margin-left: -4.615234375em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo .path7:before {
+  content: "\e90f";
+  margin-left: -4.615234375em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo .path8:before {
+  content: "\e910";
+  margin-left: -4.615234375em;
+  color: rgb(255, 255, 255);
+}
+.icon-Logo .path9:before {
+  content: "\e911";
+  margin-left: -4.615234375em;
+  color: rgb(59, 161, 196);
+}
+.icon-Logo .path10:before {
+  content: "\e912";
+  margin-left: -4.615234375em;
+  color: rgb(59, 161, 196);
+}

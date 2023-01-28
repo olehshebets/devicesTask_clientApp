@@ -1,0 +1,19 @@
+@import "@/styles/shared/typography.scss";
+
+.table {
+  .tableTitle {
+    @extend .table-column-name;
+    border-bottom: 1px solid #cbcfd3;
+    padding: 8px 12px;
+  }
+
+  .tableItems {
+    max-height: 55vh;
+    overflow-y: scroll;
+
+    & > * {
+      border-bottom: 1px solid #e7e8eb;
+      padding: 8px 12px;
+    }
+  }
+}
